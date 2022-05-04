@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.page-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 0.625rem;
+  padding: 0.625rem;
+}
+
+.page-content__left {
+  flex: 25% 0 0;
+  max-width: 22.5rem;
+}
+
+.page-content__middle {
+  flex: 50% 0 0;
+  max-width: 42.5rem;
+}
+
+.page-content__right {
+  flex: 25% 0 0;
+  max-width: 22.5rem;
+}
+
+nav, .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.625rem;
+  box-shadow: 0 3px 8px #0000000d;
+}
+
+nav__left, .nav__left {
+  flex: 25% 0 0;
+  max-width: 22.5rem;
+}
+
+nav__middle, .nav__middle {
+  flex: 50% 0 0;
+  max-width: 42.5rem;
+}
+
+nav__right, .nav__right {
+  flex: 25% 0 0;
+  max-width: 22.5rem;
+}
+
+nav .input-box__text, .nav .input-box__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+nav .input-box__text label, .nav .input-box__text label {
+  width: 100%;
+}
+
+nav .input-box__text input, .nav .input-box__text input {
+  border: none;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  background-color: #efefef;
+  width: inherit;
+  font-size: 0.9375rem;
+}
+
+nav .facebook-icons, .nav .facebook-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.8rem;
+  color: #656565;
+}
+
+nav .facebook-icons .active, .nav .facebook-icons .active {
+  color: #1b75e5;
+}
+
+nav .facebook-services, .nav .facebook-services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+nav .facebook-services .img-rounded, .nav .facebook-services .img-rounded {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav .facebook-services .facebook-service__service, .nav .facebook-services .facebook-service__service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=style.css.map */

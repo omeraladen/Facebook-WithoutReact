@@ -1,0 +1,77 @@
+
+nav , .nav{
+    @include flex(space-between,center);
+    padding: $primary-padding;
+    box-shadow: 0 3px 8px #0000000d;
+
+    &__left{
+        flex:25% 0 0;
+       
+        max-width: $sidebar-width;
+    }
+    &__middle{
+        flex:50% 0 0;
+       
+        max-width: $feed-width;
+        
+    }
+    &__right{
+        flex:25% 0 0;
+       
+        max-width: $sidebar-width;
+    }
+
+   
+    .input-box{
+        &__text{
+            @include flex(space-between,center,10);
+            label{width: 100%;}
+            input{
+                @include round-box(40,#efefef);
+                width: inherit;
+                font-size: rem(15);
+            }
+
+        }
+
+    }
+
+    .facebook-icons{
+        @include flex(space-between,center);
+        font-size: 1.8rem;
+        color:$icon-color;
+
+        .active{
+            color:$active-color;
+        }
+    }
+
+    
+    .facebook-services{
+        @include flex(space-around,center);
+
+        .img-rounded{
+            @include img-rounded(40);
+         }
+
+        
+         .facebook-service__service{
+            @include flex(center,center);
+            @include circle-icon(40);
+            background-color: $icon-background-color;
+            font-size: 1.4rem;
+            
+        }
+
+        
+    }
+   
+    
+    
+}
+
+// &__service {
+//     @include flex(center,center);
+//     background-color:$icon-background-color;
+//     font-size: 1.8rem;
+// }
