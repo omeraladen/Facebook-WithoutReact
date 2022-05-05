@@ -56,22 +56,18 @@ nav , .nav{
 
         
          .facebook-service__service{
-            @include flex(center,center);
-            @include circle-icon(40);
-            background-color: $icon-background-color;
-            font-size: 1.4rem;
+             @include circle-icon(40);
+             @include flex(center,center);
+             background-color: $icon-background-color;
+             font-size: 1.4rem;
+             
+            }
+            
             
         }
-
+        
+        
         
     }
-   
     
     
-}
-
-// &__service {
-//     @include flex(center,center);
-//     background-color:$icon-background-color;
-//     font-size: 1.8rem;
-// }

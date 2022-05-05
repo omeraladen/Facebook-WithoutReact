@@ -24,11 +24,13 @@ body {
 
 .page-content__middle {
   flex: 50% 0 0;
+  background-color: #d6dfdc;
   max-width: 42.5rem;
 }
 
 .page-content__right {
   flex: 25% 0 0;
+  background-color: #acadad;
   max-width: 22.5rem;
 }
 
@@ -105,14 +107,49 @@ nav .facebook-services .img-rounded, .nav .facebook-services .img-rounded {
 }
 
 nav .facebook-services .facebook-service__service, .nav .facebook-services .facebook-service__service {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
+  background-color: #e4e4e4;
+  font-size: 1.4rem;
+}
+
+.facebook-shortcuts__shortcut, .facebook-favorites__favorite {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.3125rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.facebook-shortcuts__shortcut {
+  padding: 0.625rem 0;
+}
+
+.facebook-shortcuts i {
+  color: #1b75e5;
+  font-size: 1.4rem;
+}
+
+.facebook-favorites__favorite {
+  padding: 0.3125rem 0;
+}
+
+.facebook-favorites .favorite-image img {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background-color: #e4e4e4;
-  font-size: 1.4rem;
+  object-fit: cover;
+}
+
+.separator {
+  border-top: 1px solid #ccc;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
 }
 /*# sourceMappingURL=style.css.map */

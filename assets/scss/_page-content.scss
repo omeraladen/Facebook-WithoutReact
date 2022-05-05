@@ -9,13 +9,13 @@
     }
     &__middle{
         flex:50% 0 0;
-      
+      background-color: rgb(214, 223, 220);
         max-width: $feed-width;
         
     }
     &__right{
         flex:25% 0 0;
-      
+      background-color: rgb(172, 173, 173);
         max-width: $sidebar-width;
     }
 }  

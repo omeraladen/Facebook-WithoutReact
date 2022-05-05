@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAA;EACf,gBAAgB,EAAE,KAAK;CAC1B",
+    "sources": [
+        "../scss/facebook-favorites.scss"
+    ],
+    "names": [],
+    "file": "facebook-favorites.css"
+}
