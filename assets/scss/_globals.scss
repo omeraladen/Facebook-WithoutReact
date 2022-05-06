@@ -51,3 +51,9 @@ body{
     height: rem($size);
     border-radius: 50%;
 }
+%content-component {
+    @include flex(left,center,5);// placeholder for holding repeat code
+    font-size: 1rem;
+    font-weight: 500;
+    margin:rem(7) 0;
+}
