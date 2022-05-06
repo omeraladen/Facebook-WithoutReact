@@ -152,6 +152,69 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
   margin-top: 0.625rem;
 }
 
+.stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.stories .story {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 6.25rem;
+  height: 11.25rem;
+  flex-direction: column;
+  padding: 0.625rem;
+  margin: unset;
+  border-radius: 0.625rem;
+  box-shadow: 0 2px 2px 00000020;
+  background-color: #00000040;
+  background-blend-mode: multiply;
+}
+
+.stories .story.story-1 {
+  background-image: url("http://picsum.photos/id/11/100/180");
+}
+
+.stories .story.story-2 {
+  background-image: url("http://picsum.photos/id/18/100/180");
+}
+
+.stories .story.story-3 {
+  background-image: url("http://picsum.photos/id/42/100/180");
+}
+
+.stories .story.story-4 {
+  background-image: url("http://picsum.photos/id/36/100/180");
+}
+
+.stories .story.story-5 {
+  background-image: url("http://picsum.photos/id/115/100/180");
+}
+
+.stories .story.story-6 {
+  background-image: url("http://picsum.photos/id/42/100/180");
+}
+
+.stories .story img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1b75e5;
+  outline: 1px solid #fff;
+}
+
+.stories .story__username {
+  color: #fff;
+  font-weight: 500;
+  font-size: .8rem;
+  text-shadow: 1px 1px 2px #000000b8;
+}
+
 .facebook-sponsors__sponsor {
   display: flex;
   justify-content: space-between;

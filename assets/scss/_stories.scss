@@ -1,0 +1,37 @@
+.stories{
+    @include flex(center,center);
+
+    .story{
+        @include flex(space-between,flex-start);
+        width: rem(100);
+        height: rem(180);
+        flex-direction: column; //to make the username in buttom
+        padding: rem(10);
+        margin: unset;
+        border-radius: rem(10);
+        box-shadow: 0 2px 2px 00000020;
+        background-color: #00000040;
+        background-blend-mode:multiply; // for adjust the capacity
+        
+        
+        @for $i from 1 through 6 {
+            &.story-#{$i}{
+                
+                background-image: url('http://picsum.photos/id/#{$i * random(25)}/100/180');
+            }
+        }
+
+        img{
+            @include img-rounded(40);
+            border: 2px solid $active-color;
+            outline: 1px solid #fff;
+        }
+        
+        &__username{
+            color: #fff;
+            font-weight: 500;
+            font-size: .8rem;
+            text-shadow: 1px 1px 2px #000000b8;
+        }
+    }
+}
