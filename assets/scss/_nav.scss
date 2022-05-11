@@ -22,19 +22,7 @@ nav , .nav{
     }
 
    
-    .input-box{
-        &__text{
-            @include flex(space-between,center,10);
-            label{width: 100%;}
-            input{
-                @include round-box(40,#efefef);
-                width: inherit;
-                font-size: rem(15);
-            }
-
-        }
-
-    }
+  
 
     .facebook-icons{
         @include flex(space-between,center);

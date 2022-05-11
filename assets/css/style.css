@@ -19,12 +19,34 @@ body {
   margin: 0.4375rem 0;
 }
 
+.input-box__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.input-box__text label {
+  width: 100%;
+}
+
+.input-box__text input {
+  border: none;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  background-color: #efefef;
+  width: inherit;
+  font-size: 0.9375rem;
+}
+
 .page-content {
   display: flex;
   justify-content: space-between;
   align-items: top;
   gap: 0.625rem;
   padding: 0.625rem;
+  background-color: #efefef;
 }
 
 .page-content__left {
@@ -64,27 +86,6 @@ nav__middle, .nav__middle {
 nav__right, .nav__right {
   flex: 25% 0 0;
   max-width: 22.5rem;
-}
-
-nav .input-box__text, .nav .input-box__text {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.625rem;
-}
-
-nav .input-box__text label, .nav .input-box__text label {
-  width: 100%;
-}
-
-nav .input-box__text input, .nav .input-box__text input {
-  border: none;
-  height: 2.5rem;
-  border-radius: 1.25rem;
-  padding: 1.25rem;
-  background-color: #efefef;
-  width: inherit;
-  font-size: 0.9375rem;
 }
 
 nav .facebook-icons, .nav .facebook-icons {
@@ -176,27 +177,27 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .stories .story.story-1 {
-  background-image: url("http://picsum.photos/id/11/100/180");
+  background-image: url("http://picsum.photos/id/23/100/180");
 }
 
 .stories .story.story-2 {
-  background-image: url("http://picsum.photos/id/18/100/180");
+  background-image: url("http://picsum.photos/id/30/100/180");
 }
 
 .stories .story.story-3 {
-  background-image: url("http://picsum.photos/id/42/100/180");
+  background-image: url("http://picsum.photos/id/75/100/180");
 }
 
 .stories .story.story-4 {
-  background-image: url("http://picsum.photos/id/36/100/180");
+  background-image: url("http://picsum.photos/id/100/100/180");
 }
 
 .stories .story.story-5 {
-  background-image: url("http://picsum.photos/id/115/100/180");
+  background-image: url("http://picsum.photos/id/45/100/180");
 }
 
 .stories .story.story-6 {
-  background-image: url("http://picsum.photos/id/42/100/180");
+  background-image: url("http://picsum.photos/id/84/100/180");
 }
 
 .stories .story img {
@@ -213,6 +214,88 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
   font-weight: 500;
   font-size: .8rem;
   text-shadow: 1px 1px 2px #000000b8;
+}
+
+.creat-post {
+  margin: 0.625rem;
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 2px 2px #00000020;
+  background-color: #fff;
+}
+
+.creat-post img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.creat-post .create-post__buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.625rem;
+  padding-top: 0.625rem;
+  margin-top: 0.625rem;
+  border-top: 1px solid #e4e4e4;
+}
+
+.creat-post .create-post__buttons__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.125rem;
+}
+
+.creat-post .create-post__buttons__button span {
+  color: #656565;
+}
+
+.creat-post .create-post__buttons__button:nth-child(1) i {
+  color: #fd68ff;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(2) i {
+  color: #59c0c7;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(3) i {
+  color: #19b7e2;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(4) i {
+  color: #9414ef;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(5) i {
+  color: #35d56a;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(6) i {
+  color: #b2b408;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(7) i {
+  color: #adeb37;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(8) i {
+  color: #c10e41;
+  font-size: 1.6rem;
+}
+
+.creat-post .create-post__buttons__button:nth-child(9) i {
+  color: #a4d3fe;
+  font-size: 1.6rem;
 }
 
 .facebook-sponsors__sponsor {

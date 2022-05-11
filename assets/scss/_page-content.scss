@@ -1,21 +1,19 @@
 .page-content{
     @include flex(space-between,top);
     padding: $primary-padding;
+    background-color: #efefef;
 
     &__left{
         flex:25% 0 0;
-        
         max-width:$sidebar-width;
     }
     &__middle{
         flex:50% 0 0;
-      
         max-width: $feed-width;
         
     }
     &__right{
         flex:25% 0 0;
-      
         max-width: $sidebar-width;
     }
 }  
