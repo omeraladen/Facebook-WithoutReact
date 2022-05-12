@@ -1,8 +1,14 @@
 
 nav , .nav{
     @include flex(space-between,center);
+    background-color: #fff;
     padding: $primary-padding;
     box-shadow: 0 3px 8px #0000000d;
+
+    position: fixed;
+    top: 0;             //To Make the Nav Fixed Top
+    width: 100%;
+    z-index: 9999;
 
     &__left{
         flex:25% 0 0;

@@ -5,8 +5,19 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #efefef;
   font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+body::before {
+  content: '';
+  display: block;
+  height: 5rem;
+}
+
+.page-content__right .wrapper, .page-content__left .wrapper {
+  position: sticky;
+  top: 5rem;
 }
 
 .facebook-shortcuts__shortcut, .facebook-favorites__favorite, .facebook-pages__page, .facebook-contacts__contact {
@@ -69,8 +80,13 @@ nav, .nav {
   justify-content: space-between;
   align-items: center;
   gap: 0.625rem;
+  background-color: #fff;
   padding: 0.625rem;
   box-shadow: 0 3px 8px #0000000d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 nav__left, .nav__left {
@@ -177,27 +193,27 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .stories .story.story-1 {
-  background-image: url("http://picsum.photos/id/18/100/180");
+  background-image: url("http://picsum.photos/id/2/100/180");
 }
 
 .stories .story.story-2 {
-  background-image: url("http://picsum.photos/id/40/100/180");
+  background-image: url("http://picsum.photos/id/36/100/180");
 }
 
 .stories .story.story-3 {
-  background-image: url("http://picsum.photos/id/21/100/180");
+  background-image: url("http://picsum.photos/id/63/100/180");
 }
 
 .stories .story.story-4 {
-  background-image: url("http://picsum.photos/id/64/100/180");
+  background-image: url("http://picsum.photos/id/76/100/180");
 }
 
 .stories .story.story-5 {
-  background-image: url("http://picsum.photos/id/85/100/180");
+  background-image: url("http://picsum.photos/id/25/100/180");
 }
 
 .stories .story.story-6 {
-  background-image: url("http://picsum.photos/id/18/100/180");
+  background-image: url("http://picsum.photos/id/96/100/180");
 }
 
 .stories .story img {
@@ -254,47 +270,47 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .creat-post .create-post__buttons__button:nth-child(1) i {
-  color: #b42451;
+  color: #836831;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(2) i {
-  color: #0d6fa0;
+  color: #37983e;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(3) i {
-  color: #4edf5f;
+  color: #d44aed;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(4) i {
-  color: #a762b6;
+  color: #edaad9;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(5) i {
-  color: #71767a;
+  color: #387338;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(6) i {
-  color: #682226;
+  color: #cc9cb6;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(7) i {
-  color: #542fb0;
+  color: #3794fd;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(8) i {
-  color: #f47c40;
+  color: #e52f27;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(9) i {
-  color: #55a5ed;
+  color: #276074;
   font-size: 1.6rem;
 }
 
@@ -326,53 +342,148 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .create-room__button:nth-child(1) i {
-  color: #f64894;
+  color: #1ae152;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(2) i {
-  color: #239e40;
+  color: #226940;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(3) i {
-  color: #872f44;
+  color: #f90465;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(4) i {
-  color: #5363dd;
+  color: #0bc7ac;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(5) i {
-  color: #931231;
+  color: #d8a4e5;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(6) i {
-  color: #592533;
+  color: #0f2aa6;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(7) i {
-  color: #745b20;
+  color: #4652b4;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(8) i {
-  color: #568431;
+  color: #df90bc;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(9) i {
-  color: #172e11;
+  color: #ef1a19;
   font-size: 1.6rem;
 }
 
 .create-room__image {
   width: 2.5rem;
   height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.news-feed {
+  margin: 0.625rem;
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 2px 2px #00000020;
+  background-color: #fff;
+  margin-top: 1.5625rem;
+}
+
+.news-feed__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.news-feed__header > div:nth-child(2) {
+  flex: 1;
+}
+
+.news-feed__header__post-userimage img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.news-feed__header__post-meta__name {
+  font-weight: 600;
+}
+
+.news-feed__header__post-meta__info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.news-feed__header__option {
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  top: -0.9375rem;
+}
+
+.news-feed__feed__text, .news-feed__feed__image {
+  margin-top: 0.625rem;
+}
+
+.news-feed__feed__image {
+  border-radius: 0.375rem;
+}
+
+.news-feed__footer {
+  padding-top: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.news-feed__footer .news-feed__reactions :first-child {
+  width: 1.2rem;
+}
+
+.news-feed__footer .news-feed__reactions img {
+  width: 1.2rem;
+}
+
+.news-feed__footer .news-feed__reactions .reaction-num {
+  margin-bottom: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.news-feed__comment-box {
+  padding-top: 0.625rem;
+}
+
+.news-feed__comment-box .input-box__text {
+  border: none;
+  height: 1.875rem;
+  border-radius: 0.9375rem;
+  padding: 0.9375rem;
+  background-color: #efefef;
+  font-size: .8rem;
+}
+
+.news-feed__comment-box img {
+  width: 2.1875rem;
+  height: 2.1875rem;
   border-radius: 50%;
   object-fit: cover;
 }

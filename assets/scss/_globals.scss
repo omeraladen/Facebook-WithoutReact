@@ -27,8 +27,26 @@ $feed-width:rem(680);
 }
 
 body{
-    background-color: $primary-background;
+   
+    background-color:#efefef;
     font-family: $primary-font;
+
+
+    &::before{
+        content: '';         // To Make Space Before The Content Start
+        display: block;
+        height: rem(80);
+        
+    }
+}
+
+.page-content {
+    &__right, &__left{
+        .wrapper {
+            position: sticky;
+            top: rem(80);
+        }
+    }
 }
 
 @mixin flex($justify: center, $align: center,$gap:10) {
