@@ -177,27 +177,27 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .stories .story.story-1 {
-  background-image: url("http://picsum.photos/id/23/100/180");
+  background-image: url("http://picsum.photos/id/18/100/180");
 }
 
 .stories .story.story-2 {
-  background-image: url("http://picsum.photos/id/30/100/180");
+  background-image: url("http://picsum.photos/id/40/100/180");
 }
 
 .stories .story.story-3 {
-  background-image: url("http://picsum.photos/id/75/100/180");
+  background-image: url("http://picsum.photos/id/21/100/180");
 }
 
 .stories .story.story-4 {
-  background-image: url("http://picsum.photos/id/100/100/180");
+  background-image: url("http://picsum.photos/id/64/100/180");
 }
 
 .stories .story.story-5 {
-  background-image: url("http://picsum.photos/id/45/100/180");
+  background-image: url("http://picsum.photos/id/85/100/180");
 }
 
 .stories .story.story-6 {
-  background-image: url("http://picsum.photos/id/84/100/180");
+  background-image: url("http://picsum.photos/id/18/100/180");
 }
 
 .stories .story img {
@@ -254,48 +254,127 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .creat-post .create-post__buttons__button:nth-child(1) i {
-  color: #fd68ff;
+  color: #b42451;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(2) i {
-  color: #59c0c7;
+  color: #0d6fa0;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(3) i {
-  color: #19b7e2;
+  color: #4edf5f;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(4) i {
-  color: #9414ef;
+  color: #a762b6;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(5) i {
-  color: #35d56a;
+  color: #71767a;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(6) i {
-  color: #b2b408;
+  color: #682226;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(7) i {
-  color: #adeb37;
+  color: #542fb0;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(8) i {
-  color: #c10e41;
+  color: #f47c40;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(9) i {
-  color: #a4d3fe;
+  color: #55a5ed;
   font-size: 1.6rem;
+}
+
+.create-room {
+  margin: 0.625rem;
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 2px 2px #00000020;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.625rem;
+  background-color: #fff;
+}
+
+.create-room__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.125rem;
+  border: 2px solid #efefef;
+  border-radius: 1.5625rem;
+  padding: 0.3125rem 0.5625rem;
+}
+
+.create-room__button span {
+  color: #656565;
+}
+
+.create-room__button:nth-child(1) i {
+  color: #f64894;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(2) i {
+  color: #239e40;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(3) i {
+  color: #872f44;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(4) i {
+  color: #5363dd;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(5) i {
+  color: #931231;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(6) i {
+  color: #592533;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(7) i {
+  color: #745b20;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(8) i {
+  color: #568431;
+  font-size: 1.6rem;
+}
+
+.create-room__button:nth-child(9) i {
+  color: #172e11;
+  font-size: 1.6rem;
+}
+
+.create-room__image {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .facebook-sponsors__sponsor {
