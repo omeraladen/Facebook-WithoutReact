@@ -51,6 +51,27 @@ body::before {
   font-size: 0.9375rem;
 }
 
+.input-box__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.input-box__text label {
+  width: 100%;
+}
+
+.input-box__text input {
+  border: none;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  background-color: #efefef;
+  width: inherit;
+  font-size: 0.9375rem;
+}
+
 .page-content {
   display: flex;
   justify-content: space-between;
@@ -193,27 +214,27 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .stories .story.story-1 {
-  background-image: url("http://picsum.photos/id/2/100/180");
+  background-image: url("http://picsum.photos/id/14/100/180");
 }
 
 .stories .story.story-2 {
-  background-image: url("http://picsum.photos/id/36/100/180");
+  background-image: url("http://picsum.photos/id/4/100/180");
 }
 
 .stories .story.story-3 {
-  background-image: url("http://picsum.photos/id/63/100/180");
+  background-image: url("http://picsum.photos/id/48/100/180");
 }
 
 .stories .story.story-4 {
-  background-image: url("http://picsum.photos/id/76/100/180");
+  background-image: url("http://picsum.photos/id/16/100/180");
 }
 
 .stories .story.story-5 {
-  background-image: url("http://picsum.photos/id/25/100/180");
+  background-image: url("http://picsum.photos/id/60/100/180");
 }
 
 .stories .story.story-6 {
-  background-image: url("http://picsum.photos/id/96/100/180");
+  background-image: url("http://picsum.photos/id/114/100/180");
 }
 
 .stories .story img {
@@ -270,47 +291,47 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .creat-post .create-post__buttons__button:nth-child(1) i {
-  color: #836831;
+  color: #088540;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(2) i {
-  color: #37983e;
+  color: #ccafde;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(3) i {
-  color: #d44aed;
+  color: #350c0b;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(4) i {
-  color: #edaad9;
+  color: #d2b144;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(5) i {
-  color: #387338;
+  color: #8e7c44;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(6) i {
-  color: #cc9cb6;
+  color: #7125cd;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(7) i {
-  color: #3794fd;
+  color: #6d2038;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(8) i {
-  color: #e52f27;
+  color: #821c38;
   font-size: 1.6rem;
 }
 
 .creat-post .create-post__buttons__button:nth-child(9) i {
-  color: #276074;
+  color: #518ae6;
   font-size: 1.6rem;
 }
 
@@ -342,47 +363,47 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .create-room__button:nth-child(1) i {
-  color: #1ae152;
+  color: #1e302a;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(2) i {
-  color: #226940;
+  color: #c16511;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(3) i {
-  color: #f90465;
+  color: #1d56a3;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(4) i {
-  color: #0bc7ac;
+  color: #406662;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(5) i {
-  color: #d8a4e5;
+  color: #5c5153;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(6) i {
-  color: #0f2aa6;
+  color: #f340b2;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(7) i {
-  color: #4652b4;
+  color: #4a5044;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(8) i {
-  color: #df90bc;
+  color: #d34cba;
   font-size: 1.6rem;
 }
 
 .create-room__button:nth-child(9) i {
-  color: #ef1a19;
+  color: #f01894;
   font-size: 1.6rem;
 }
 
@@ -472,7 +493,7 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
   padding-top: 0.625rem;
 }
 
-.news-feed__comment-box .input-box__text {
+.news-feed__comment-box .input-box__text input {
   border: none;
   height: 1.875rem;
   border-radius: 0.9375rem;
@@ -482,8 +503,8 @@ nav .facebook-services .facebook-service__service, .nav .facebook-services .face
 }
 
 .news-feed__comment-box img {
-  width: 2.1875rem;
-  height: 2.1875rem;
+  width: 1.875rem;
+  height: 1.875rem;
   border-radius: 50%;
   object-fit: cover;
 }

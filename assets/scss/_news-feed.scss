@@ -56,13 +56,13 @@
    &__comment-box{
        padding-top: $primary-padding;
 
-       .input-box__text{
+       .input-box__text input{
            @include round-box(30,#efefef);
            font-size:.8rem ;
        }
 
        img{
-           @include img-rounded(35);
+           @include img-rounded(30);
        }
    }
 }
